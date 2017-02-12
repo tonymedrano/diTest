@@ -1,0 +1,15 @@
+<div id="main">
+    <div class="messages pull-left"><img src="assets/img/bottomline_symbol_green_RGB.png" class="logo"></div>
+    <div class="dropdown pull-right">
+        <button class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"> <span class="glyphicon glyphicon-one-fine-dot">{{notificationCounter}}</span><img src="assets/img/report-problem-triangle.svg" /></button>
+        <ul role="menu" class="dropdown-menu">
+            <li role="presentation" class="notification" *ngFor="let message of messages; let msg = index">
+                <span>{{i}} {{message.title}}</span>
+                <div>{{message.severity}}</div>
+                <img src="assets/img/check.svg" tabindex="0" style="outline: none;" (click)="removeMessage(msg)">
+                <hr/>
+            </li>
+            <div class="all-notifications"><a href="#">Alle notificaties&nbsp;<span>({{notificationCounter}})</span></a></div>
+        </ul>
+    </div>
+</div>

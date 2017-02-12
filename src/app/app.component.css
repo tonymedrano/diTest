@@ -1,0 +1,139 @@
+#main {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-flex;
+    font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+}
+
+#main .messages .logo {
+    width: 42px;
+    margin: 14px 0 0 55px;
+}
+
+#main .dropdown .btn {
+    width: 110px;
+    height: 70px;
+    border: none;
+    background-color: #00d193;
+}
+
+#main .messages {
+    float: left;
+    width: 100%;
+    background-color: #373737;
+    height: 70px;
+}
+
+#main ul.dropdown-menu {
+    border-radius: 0;
+    margin-top: 0;
+    border-top: 0;
+    box-shadow: none;
+    border-bottom-left-radius: 6px;
+}
+
+#main .open .btn {
+    background-color: #ffffff;
+}
+
+#main .dropdown .btn span.glyphicon {
+    position: absolute;
+    top: 12px;
+    margin-left: 12px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    text-align: center;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    font-weight: bold;
+}
+
+#main ul.dropdown-menu .btn {
+    position: relative;
+}
+
+#main ul.dropdown img {
+    width: 29px;
+    height: 29px;
+}
+
+#main .dropdown ul.dropdown-menu li.notification {
+    width: 400px;
+    position: relative;
+}
+
+#main .dropdown ul.dropdown-menu li.notification span {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #494949;
+}
+
+#main .dropdown ul.dropdown-menu li.notification div {
+    background-color: #e2e2e2;
+    border-radius: 3px;
+    font-size: 10px;
+    color: #494949;
+    font-weight: normal;
+    font-family: arial;
+    margin-top: 10px;
+    width: 128px;
+    padding: 4px;
+    text-align: center;
+}
+
+#main .dropdown ul.dropdown-menu li.notification img {
+    width: 24px;
+    position: absolute;
+    right: 40px;
+    top: 26px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+#main .dropdown ul.dropdown-menu li.notification img:hover {
+    cursor: pointer;
+}
+
+#main .dropdown ul.dropdown-menu li.notification {
+    padding: 10px 20px;
+    border-bottom: #000;
+}
+
+#main .dropdown ul.dropdown-menu li.notification hr {
+    padding: 0;
+    margin: 22px 0 0 0;
+    background: none;
+}
+
+#main .dropdown ul.dropdown-menu li.notification hr:nth-last-child {
+    border: none;
+    border: 0;
+}
+
+#main .dropdown ul.dropdown-menu div.all-notifications {
+    background-color: #e8e8e8;
+    height: 50px;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+#main .dropdown ul.dropdown-menu {
+    padding-bottom: 0;
+}
+
+#main .dropdown ul.dropdown-menu div.all-notifications a {
+    color: #333333;
+    text-decoration: underline;
+}
+
+#main .dropdown ul.dropdown-menu li.notification:first-child {
+    margin-top: 8px;
+}
